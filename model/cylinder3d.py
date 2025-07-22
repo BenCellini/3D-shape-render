@@ -20,7 +20,7 @@ class Cylinder3D:
 
         self.axis_index_map = {'x': 0, 'y': 1, 'z': 2}
 
-    def render(self, x=0, y=0, z=0, roll=0.0, pitch=0.0, yaw=0.0, zoom=3.0, show=False):
+    def render(self, x=0, y=0, z=0, roll=0.0, pitch=0.0, yaw=0.0, zoom=5.0, show=False):
         """ Render the 3D cylinder.
         """
 
